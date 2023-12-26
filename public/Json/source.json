@@ -1,0 +1,82 @@
+[
+  {
+    "id": 2,
+    "title": "Batik Sidomukti",
+    "price": 75000,
+    "desciption": "Kami menghadirkan standar kualitas tertinggi dalam setiap batik kamu. Bahan berkualitas tinggi dan detail pengerjaan yang cermat menjamin bahwa setiap pakaian dari BatikGlam adalah investasi jangka panjang dalam gaya dan kenyamanan",
+    "image": "footage/foto2.jpeg",
+    "count": 130
+  },
+  {
+    "id": 4,
+    "title": "Batik Terang Bulan",
+    "price": 50000,
+    "desciption": "Kami menghadirkan standar kualitas tertinggi dalam setiap batik kamu. Bahan berkualitas tinggi dan detail pengerjaan yang cermat menjamin bahwa setiap pakaian dari BatikGlam adalah investasi jangka panjang dalam gaya dan kenyamanan",
+    "image": "footage/foto4.jpeg",
+    "count": 120
+  },
+  {
+    "id": 7,
+    "title": "Batik Ceplok",
+    "price": 60000,
+    "desciption": "Kami menghadirkan standar kualitas tertinggi dalam setiap batik kamu. Bahan berkualitas tinggi dan detail pengerjaan yang cermat menjamin bahwa setiap pakaian dari BatikGlam adalah investasi jangka panjang dalam gaya dan kenyamanan",
+    "image": "footage/foto7.jpeg",
+    "count": 129
+  },
+  {
+    "id": 9,
+    "title": "Batik Jlamprang",
+    "price": 150000,
+    "desciption": "Kami menghadirkan standar kualitas tertinggi dalam setiap batik kamu. Bahan berkualitas tinggi dan detail pengerjaan yang cermat menjamin bahwa setiap pakaian dari BatikGlam adalah investasi jangka panjang dalam gaya dan kenyamanan",
+    "image": "footage/foto9.jpeg",
+    "count": 127
+  },
+  {
+    "id": 10,
+    "title": "Batik Grompol",
+    "price": 65000,
+    "desciption": "Kami menghadirkan standar kualitas tertinggi dalam setiap batik kamu. Bahan berkualitas tinggi dan detail pengerjaan yang cermat menjamin bahwa setiap pakaian dari BatikGlam adalah investasi jangka panjang dalam gaya dan kenyamanan",
+    "image": "footage/foto10.jpeg",
+    "count": 154
+  },
+  {
+    "id": 11,
+    "title": "Batik Lereng Garuda",
+    "price": 250000,
+    "desciption": "Kami menghadirkan standar kualitas tertinggi dalam setiap batik kamu. Bahan berkualitas tinggi dan detail pengerjaan yang cermat menjamin bahwa setiap pakaian dari BatikGlam adalah investasi jangka panjang dalam gaya dan kenyamanan",
+    "image": "footage/foto11.jpeg",
+    "count": 100
+  },
+  {
+    "id": 12,
+    "title": "Batik Tumpal",
+    "price": 50000,
+    "desciption": "Kami menghadirkan standar kualitas tertinggi dalam setiap batik kamu. Bahan berkualitas tinggi dan detail pengerjaan yang cermat menjamin bahwa setiap pakaian dari BatikGlam adalah investasi jangka panjang dalam gaya dan kenyamanan",
+    "image": "footage/foto12.jpeg",
+    "count": 150
+  },
+  {
+    "id": 14,
+    "title": "Batik Kawung Alus",
+    "price": 75000,
+    "desciption": "Kami menghadirkan standar kualitas tertinggi dalam setiap batik kamu. Bahan berkualitas tinggi dan detail pengerjaan yang cermat menjamin bahwa setiap pakaian dari BatikGlam adalah investasi jangka panjang dalam gaya dan kenyamanan",
+    "image": "footage/foto14.jpeg",
+    "count": 105
+  },
+  {
+    "id": 15,
+    "title": "Batik Lung-lungan",
+    "price": 60000,
+    "desciption": "Kami menghadirkan standar kualitas tertinggi dalam setiap batik kamu. Bahan berkualitas tinggi dan detail pengerjaan yang cermat menjamin bahwa setiap pakaian dari BatikGlam adalah investasi jangka panjang dalam gaya dan kenyamanan",
+    "image": "footage/foto15.jpeg",
+    "count": 145
+  },
+  {
+    "id": 17,
+    "title": "Batik Sekar Jagad",
+    "price": 80000,
+    "desciption": "Kami menghadirkan standar kualitas tertinggi dalam setiap batik kamu. Bahan berkualitas tinggi dan detail pengerjaan yang cermat menjamin bahwa setiap pakaian dari BatikGlam adalah investasi jangka panjang dalam gaya dan kenyamanan",
+    "image": "footage/foto17.jpeg",
+    "count": 107
+  }
+]
