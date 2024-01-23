@@ -17,7 +17,6 @@ export const ProductsPage = () => {
     // Menggunakan data dari file JSON yang diimpor
     setProducts(dataJson);
   };
-
   const activePage = "/products";
   return (
     <div className="w-full h-full max-h-full bg-slate-300">
@@ -31,7 +30,7 @@ export const ProductsPage = () => {
       <div className="border border-gray-400 mx-12"></div>
       <div className="w-full h-full flex justify-between flex-wrap px-10">
         {products.map((product) => (
-          <CardProduct key={product.id}>
+          <CardProduct key={product.id} productData={product}>
             <CardProduct.Header image={product.image} />
             <CardProduct.Body title={product.title} />
             <CardProduct.Footer

@@ -7,7 +7,7 @@ export const Input = (props) => {
         name={name}
         id={name}
         placeholder={placeholder}
-        className={`border-2 border-teal-700 mb-3 placeholder:text-gray-400 text-sm rounded-lg pl-2 py-1 px-8 outline-none focus:border-teal-700 ${classname}`}
+        className={`border border-slate-200 bg-transparent mb-3 placeholder:text-gray-400 text-sm rounded-lg pl-2 py-1 px-8 outline-none focus:border-teal-500 focus:text-slate-300 ${classname}`}
       />
     </div>
   );

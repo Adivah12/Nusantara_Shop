@@ -5,7 +5,8 @@
     "price": 75000,
     "desciption": "Kami menghadirkan standar kualitas tertinggi dalam setiap batik kamu. Bahan berkualitas tinggi dan detail pengerjaan yang cermat menjamin bahwa setiap pakaian dari BatikGlam adalah investasi jangka panjang dalam gaya dan kenyamanan",
     "image": "./Json/footage/foto2.jpeg",
-    "count": 130
+    "count": 130,
+    "quantity": 1
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "price": 50000,
     "desciption": "Kami menghadirkan standar kualitas tertinggi dalam setiap batik kamu. Bahan berkualitas tinggi dan detail pengerjaan yang cermat menjamin bahwa setiap pakaian dari BatikGlam adalah investasi jangka panjang dalam gaya dan kenyamanan",
     "image": "./Json/footage/foto4.jpeg",
-    "count": 120
+    "count": 120,
+    "quantity": 1
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "price": 60000,
     "desciption": "Kami menghadirkan standar kualitas tertinggi dalam setiap batik kamu. Bahan berkualitas tinggi dan detail pengerjaan yang cermat menjamin bahwa setiap pakaian dari BatikGlam adalah investasi jangka panjang dalam gaya dan kenyamanan",
     "image": "./Json/footage/foto7.jpeg",
-    "count": 129
+    "count": 129,
+    "quantity": 1
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "price": 150000,
     "desciption": "Kami menghadirkan standar kualitas tertinggi dalam setiap batik kamu. Bahan berkualitas tinggi dan detail pengerjaan yang cermat menjamin bahwa setiap pakaian dari BatikGlam adalah investasi jangka panjang dalam gaya dan kenyamanan",
     "image": "./Json/footage/foto9.jpeg",
-    "count": 127
+    "count": 127,
+    "quantity": 1
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@
     "price": 65000,
     "desciption": "Kami menghadirkan standar kualitas tertinggi dalam setiap batik kamu. Bahan berkualitas tinggi dan detail pengerjaan yang cermat menjamin bahwa setiap pakaian dari BatikGlam adalah investasi jangka panjang dalam gaya dan kenyamanan",
     "image": "./Json/footage/foto10.jpeg",
-    "count": 154
+    "count": 154,
+    "quantity": 1
   },
   {
     "id": 6,
@@ -45,7 +50,8 @@
     "price": 250000,
     "desciption": "Kami menghadirkan standar kualitas tertinggi dalam setiap batik kamu. Bahan berkualitas tinggi dan detail pengerjaan yang cermat menjamin bahwa setiap pakaian dari BatikGlam adalah investasi jangka panjang dalam gaya dan kenyamanan",
     "image": "./Json/footage/foto11.jpeg",
-    "count": 100
+    "count": 100,
+    "quantity": 1
   },
   {
     "id": 7,
@@ -53,7 +59,8 @@
     "price": 50000,
     "desciption": "Kami menghadirkan standar kualitas tertinggi dalam setiap batik kamu. Bahan berkualitas tinggi dan detail pengerjaan yang cermat menjamin bahwa setiap pakaian dari BatikGlam adalah investasi jangka panjang dalam gaya dan kenyamanan",
     "image": "./Json/footage/foto12.jpeg",
-    "count": 150
+    "count": 150,
+    "quantity": 1
   },
   {
     "id": 8,
@@ -61,7 +68,8 @@
     "price": 75000,
     "desciption": "Kami menghadirkan standar kualitas tertinggi dalam setiap batik kamu. Bahan berkualitas tinggi dan detail pengerjaan yang cermat menjamin bahwa setiap pakaian dari BatikGlam adalah investasi jangka panjang dalam gaya dan kenyamanan",
     "image": "./Json/footage/foto14.jpeg",
-    "count": 105
+    "count": 105,
+    "quantity": 1
   },
   {
     "id": 9,
@@ -69,7 +77,8 @@
     "price": 60000,
     "desciption": "Kami menghadirkan standar kualitas tertinggi dalam setiap batik kamu. Bahan berkualitas tinggi dan detail pengerjaan yang cermat menjamin bahwa setiap pakaian dari BatikGlam adalah investasi jangka panjang dalam gaya dan kenyamanan",
     "image": "./Json/footage/foto15.jpeg",
-    "count": 145
+    "count": 145,
+    "quantity": 1
   },
   {
     "id": 10,
@@ -77,6 +86,7 @@
     "price": 80000,
     "desciption": "Kami menghadirkan standar kualitas tertinggi dalam setiap batik kamu. Bahan berkualitas tinggi dan detail pengerjaan yang cermat menjamin bahwa setiap pakaian dari BatikGlam adalah investasi jangka panjang dalam gaya dan kenyamanan",
     "image": "./Json/footage/foto17.jpeg",
-    "count": 107
+    "count": 107,
+    "quantity": 1
   }
 ]
