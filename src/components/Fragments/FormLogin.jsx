@@ -18,7 +18,7 @@ export const FormLogin = () => {
   
     // untuk connect ke php dan disimpan ke database
     try {
-      const response = await fetch("http://localhost/uas/register.php", {
+      const response = await fetch("http://nusantara.great-site.net/uas/register.php", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
