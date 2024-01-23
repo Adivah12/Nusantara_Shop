@@ -17,7 +17,7 @@ export const ContactPage = () => {
     const message = event.target.message.value;
 
     try {
-      const response = await fetch("http://localhost/uas/contact.php", {
+      const response = await fetch("http://nusantara.great-site.net/uas/contact.php", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
