@@ -113,7 +113,7 @@ export const BuyPage = () => {
      const formData = new FormData();
      formData.append("TotalCost", totalCost);
    
-     fetch("http://nusantara.great-site.net/uas/total.php", {
+     fetch("http://nusantara.great-site.net/total.php", {
        method: "POST",
        headers: {
          "Content-Type": "application/json",
@@ -132,7 +132,7 @@ export const BuyPage = () => {
        const params = new URLSearchParams();
        params.append('selectedProducts', JSON.stringify(selectedProducts));
        
-       fetch("http://nusantara.great-site.net/uas/total.php", {
+       fetch("http://nusantara.great-site.net/total.php", {
         method: "POST",
         body: JSON.stringify({ selectedProducts: checkoutProducts }),
       })
