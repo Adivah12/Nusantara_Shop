@@ -24,7 +24,7 @@ export const Navbar = (props) => {
   const handleLogout = () => {
     localStorage.removeItem("username");
     localStorage.removeItem("password");
-    window.location = "/";
+    window.location = "/login";
   };
 
   return (
