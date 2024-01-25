@@ -48,21 +48,21 @@ export const ContactPage = () => {
       skills: ["Full Stack", "Android", "Student"],
       notel: 81385776118,
       gmail: "faizalputraramadhan29@gmail.com",
-      image: "./public/img/faisal-2.jpeg",
+      image: "/img/faisal-2.jpeg",
     },
     {
       name: "M. Raihan Hafiz",
       skills: ["Front End", "Gamers", "Student"],
       notel: 895333909847,
       gmail: "muhammadraihan86185@gmail.com",
-      image: "./public/img/hannn.jpeg",
+      image: "/img/hannn.jpeg",
     },
     {
       name: "Aditya Vahreza",
       skills: ["Back End", "Cyber Security", "Student"],
       notel: 88224931267,
       gmail: "vahreza48@gmail.com",
-      image: "./public/img/adit-denis.jpeg",
+      image: "/img/adit-denis.jpeg",
     },
   ];
 
@@ -70,7 +70,7 @@ export const ContactPage = () => {
     <>
       {/* Bagian atas komponen */}
       {/* Start */}
-      <div className="w-full h-screen bg-[url('./public/img/bg-4.jpg')] bg-cover">
+      <div className="w-full h-screen bg-[url('/img/bg-4.jpg')] bg-cover">
         <Navbar activePage={activePage} />
         <div className="w-full pt-20">
           <div className="w-full flex justify-center pr-10">
@@ -87,7 +87,7 @@ export const ContactPage = () => {
       </div>
       {/* End */}
       {/* Start */}
-      <div className="w-full h-screen flex flex-col items-center pt-32 bg-[url('./public/img/bg-7.jpg')] bg-cover bg-bottom">
+      <div className="w-full h-screen flex flex-col items-center pt-32 bg-[url('/img/bg-7.jpg')] bg-cover bg-bottom">
         <div className="block my-6">
           <h1 className="mx-auto ml-8 text-4xl font-semibold  text-slate-100 [text-shadow:0_2px_0_rgb(0_0_0/_100%)]">
             Get in touch
