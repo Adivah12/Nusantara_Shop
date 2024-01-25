@@ -12,12 +12,12 @@ import { BuyPage } from "./components/pages/buynow";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <LoginPage />,
-    errorElement: <ErrorPage />,
+    element: <HomePage />,
+    // element: <LoginPage />,
+    // errorElement: <ErrorPage />,
   },
   {
     path: "/home",
-    element: <HomePage />,
   },
   {
     path: "/products",
