@@ -32,4 +32,4 @@ const App = () => (
   </React.StrictMode>
 );
 
-ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+ReactDOM.createRoot(document.getElementById("root")).render(<LoginPage />);
