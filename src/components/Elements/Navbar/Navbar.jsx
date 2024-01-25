@@ -39,7 +39,7 @@ export const Navbar = (props) => {
         </h1>
       </div>
       <div className="">
-        <LinkTo children="Home" to="/home" isActive={activePage === "/home"} />
+        <LinkTo children="Home" to="/" isActive={activePage === "/"} />
         <LinkTo
           children="Products"
           to="/products"
