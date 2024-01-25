@@ -58,7 +58,7 @@ export const CardProduct = (props) => {
       >
         <div className="modal-content">
           <img
-            src="/public/img/verified.gif"
+            src="/img/verified.gif"
             alt=""
             className="w-20 h-20 ml-32 mb-2"
           />
