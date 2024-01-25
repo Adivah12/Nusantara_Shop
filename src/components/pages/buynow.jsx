@@ -335,12 +335,12 @@ export const BuyPage = () => {
                 {/* Isi dari popup, seperti kode virtual account atau informasi pembayaran */}
                 {/* <Payment /> */}
                 <img
-                  src="/public/img/money.gif"
+                  src="/img/money.gif"
                   alt=""
                   className="w-40 h-40 ml-40"
                 />
                 <p className="my-4 flex justify-center font-semibold text-gray-800">
-                  Kode Virtual Account: {virtualAccountNumber}
+                  Kode Virtual Account: 74267474512
                 </p>
                 <p className="my-2 flex justify-center">
                   Waktu tersisa :{" "}
