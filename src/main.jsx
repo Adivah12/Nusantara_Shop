@@ -1,27 +1,40 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { HomePage } from "./components/pages/home";
 import { ProductsPage } from "./components/pages/products";
-import { ContactPage } from "./components/pages/contact";
+import { ContactPage } from "./components/pages/Contact";
 import { LoginPage } from "./components/pages/login";
 import { ErrorPage } from "./components/pages/404";
 import { BuyPage } from "./components/pages/buynow";
 
-const App = () => (
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <LoginPage />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/home",
+    element: <HomePage />,
+  },
+  {
+    path: "/products",
+    element: <ProductsPage />,
+  },
+  {
+    path: "/contact",
+    element: <ContactPage />,
+  },
+  {
+    path: "/buy",
+    element: <BuyPage />,
+  },
+]);
+
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Router>
-      <Routes>
-        <Route path="/" element={<LoginPage />} />
-        <Route path="/home" element={<HomePage />} />
-        <Route path="/products" element={<ProductsPage />} />
-        <Route path="/contact" element={<ContactPage />} />
-        <Route path="/buy" element={<BuyPage />} />
-        {/* Fallback untuk route tidak terdaftar */}
-        <Route path="*" element={<ErrorPage />} />
-      </Routes>
-    </Router>
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
-
-ReactDOM.createRoot(document.getElementById("root")).render(<App />);
