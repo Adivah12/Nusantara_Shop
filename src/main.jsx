@@ -1,40 +1,35 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Outlet,
+} from "react-router-dom";
 import { HomePage } from "./components/pages/home";
 import { ProductsPage } from "./components/pages/products";
-import { ContactPage } from "./components/pages/contact";
+import { ContactPage } from "./components/pages/Contact";
 import { LoginPage } from "./components/pages/login";
 import { ErrorPage } from "./components/pages/404";
 import { BuyPage } from "./components/pages/buynow";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <LoginPage />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "/home",
-    element: <HomePage />,
-  },
-  {
-    path: "/products",
-    element: <ProductsPage />,
-  },
-  {
-    path: "/contact",
-    element: <ContactPage />,
-  },
-  {
-    path: "/buy",
-    element: <BuyPage />,
-  },
-]);
-
-ReactDOM.createRoot(document.getElementById("root")).render(
+const App = () => (
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <Router>
+      <Routes>
+        <Route
+          path="/"
+          element={<LoginPage />}
+          fallback={<ErrorPage />}
+        />
+        <Route path="/home" element={<HomePage />} />
+        <Route path="/products" element={<ProductsPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/buy" element={<BuyPage />} />
+      </Routes>
+    </Router>
   </React.StrictMode>
 );
+
+ReactDOM.createRoot(document.getElementById("root")).render(<App />);
