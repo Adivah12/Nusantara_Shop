@@ -1,12 +1,6 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
-import "./index.css";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Outlet,
-} from "react-router-dom";
+import ReactDOM from "react-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { HomePage } from "./components/pages/home";
 import { ProductsPage } from "./components/pages/products";
 import { ContactPage } from "./components/pages/contact";
@@ -18,18 +12,16 @@ const App = () => (
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route
-          path="/"
-          element={<LoginPage />}
-          fallback={<ErrorPage />}
-        />
-        <Route path=" /home" element={<HomePage />} />
+        <Route path="/" element={<LoginPage />} />
+        <Route path="/home" element={<HomePage />} />
         <Route path="/products" element={<ProductsPage />} />
         <Route path="/contact" element={<ContactPage />} />
-       <Route path="/buy" element={<BuyPage />} />
+        <Route path="/buy" element={<BuyPage />} />
+        {/* Fallback untuk route tidak terdaftar */}
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
-   </Router>
-   </React.StrictMode>
+    </Router>
+  </React.StrictMode>
 );
 
-ReactDOM.createRoot(document.getElementById("root")).render(<app />);
+ReactDOM.createRoot(document.getElementById("root")).render(<App />);
