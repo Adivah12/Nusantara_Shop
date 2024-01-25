@@ -5,45 +5,26 @@ import { useState } from "react";
 export const FormLogin = () => {
   const [error, setError] = useState("");
 
-  const handleLogin = async (event) => {
+  const handleLogin = (event) => {
     event.preventDefault();
-  
+
     const username = event.target.username.value;
     const password = event.target.password.value;
-  
+
     if (username === "" || password === "") {
       setError("Username dan Password wajib di isi!!!");
-      return false;
+      return;
     }
-  
-    // untuk connect ke php dan disimpan ke database
-    try {
-      const response = await fetch("http://nusantara.great-site.net/register.php", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ username, password }),
-      });
-  
-      const data = await response.json();
-  
-      if (response.ok) {
-        // Successfully logged in, save username to localStorage
-        localStorage.setItem("username", username);
-  
-        // Redirect or perform other actions
-        window.location.href = "/home";
-      } else {
-        setError(data.message || "An error occurred");
-      }
-    } catch (error) {
-      setError("An error occurred while processing your request");
-      console.error(error);
-    }
+
+    // Simpan data di sisi klien, misalnya dalam local storage
+    localStorage.setItem("username", username);
+
+    // Redirect atau lakukan tindakan lain
+    window.location.href = "/home";
   };
+
   return (
-    // login section
+    // Formulir login
     <form onSubmit={handleLogin}>
       <Input type="text" name="username" placeholder="Username" />
       <Input type="password" name="password" placeholder="********" />
