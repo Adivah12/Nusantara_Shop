@@ -23,7 +23,7 @@ const App = () => (
           element={<LoginPage />}
           fallback={<ErrorPage />}
         />
-        <Route path="/home" element={<HomePage />} />
+        <Route path=" https://master--nusantara-shop.netlify.app/home" element={<HomePage />} />
         <Route path="/products" element={<ProductsPage />} />
         <Route path="/contact" element={<ContactPage />} />
        <Route path="/buy" element={<BuyPage />} />
