@@ -14,7 +14,7 @@ export const LoginPage = () => {
     <div className="w-full h-screen relative">
       <video
         ref={videoRef}
-        src="./public/img/bg-vid-3.mp4"
+        src="/img/bg-vid-3.mp4"
         className="w-full h-full object-cover absolute inset-0"
         autoPlay
         muted
