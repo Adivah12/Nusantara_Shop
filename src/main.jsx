@@ -32,6 +32,10 @@ const router = createBrowserRouter([
     path: "/buy",
     element: <BuyPage />,
   },
+   {
+    path: "/login",
+    element: <LoginPage />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
