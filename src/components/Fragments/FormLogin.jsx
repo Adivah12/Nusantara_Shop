@@ -20,7 +20,7 @@ export const FormLogin = () => {
     localStorage.setItem("username", username);
 
     // Redirect atau lakukan tindakan lain
-    window.location.href = "/home";
+    window.location.href = "./src/pages/home";
   };
 
   return (
