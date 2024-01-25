@@ -1,7 +1,7 @@
 import { Navbar } from "../Elements/Navbar/Navbar";
 
 export const HomePage = () => {
-  const activePage = "/home";
+  const activePage = "/";
   return (
     <div className="w-full h-screen bg-[url('/img/bg-2.jpg')] bg-cover">
       {/* Navbar */}
