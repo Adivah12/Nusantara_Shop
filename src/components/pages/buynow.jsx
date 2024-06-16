@@ -39,10 +39,10 @@ export const BuyPage = () => {
         cost = 0;
         break;
       case "SD":
-        cost = 15000;
+        cost = 150000;
         break;
       case "ED":
-        cost = 30000;
+        cost = 300000;
         break;
       case "ND":
         cost = 100000;
